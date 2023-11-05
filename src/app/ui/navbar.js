@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const logo = '../../../logo.svg';
+// Next.js looks for a file path relative to the 'public' directory
+const logo = '/logo.svg';
 
 export default function NavBar() {
     return (
