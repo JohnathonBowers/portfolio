@@ -9,7 +9,7 @@ const logo = '/logo.svg';
 export default function NavBar() {
     return (
         <header>
-            <nav className="sticky top-0 left-0 right-0 z-50 bg-white opacity-95 h-[100px] px-[16px] drop-shadow-md flex flex-col justify-center">
+            <nav className="sticky top-0 left-0 right-0 z-50 bg-white h-[100px] px-[16px] drop-shadow-md flex flex-col justify-center">
                 <div className="mx-auto max-w-[1120px] w-full min-w-max flex flex-row justify-between">
                     <Link
                         href="/"
